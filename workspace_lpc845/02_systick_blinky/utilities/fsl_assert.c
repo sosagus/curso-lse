@@ -51,7 +51,7 @@ void __assertion_failed(char *failedExpr)
 
     for (;;)
     {
-
+        __BKPT(0);
     }
 }
 #else
